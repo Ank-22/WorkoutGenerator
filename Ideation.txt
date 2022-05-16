@@ -1,0 +1,67 @@
+Project Name: AI Trainer
+Idea By: Ankit Sinha [Ank22]
+Documented by: Ankit Sinha [Ank22]
+
+** Legends **
+WOD == CrossFit
+Op == Optional
+
+%% Tech Stack %%
+Python - Backend
+Flask - API
+HTML & JS - Frontend
+CSS Framework -??	
+database - ?? mongoDB - pre planed workout + exersice list 
+		  mysql -  alternative exercise  [Op]
+ 
+
+### Phase 1 ###
+- basic wesite 
+- WOD Gen -- [Database]
+- Host [Loacal/DNS]
+
+### Phase 1.1 ###
+- Web support for responsive View [Op]
+### Phase 1.2 [minor] ### 
+- WOD Gen (Based on Muscle Groups)
+### Phase 1.3 [minor] ### 
+- WOD Gen (Based on Type)
+### Phase 1.4 [Major] ### 
+- WOD Gen via algorithm 
+
+
+### Phase 2 ###
+- Exercise Database <Exercise|Muscle|Flags{GYM, WOD, SET REP, Time Base}>
+- Algorithm to create Gym workout 
+	- Create Warm Up  Cooldowns
+		- Add that to WOD
+- Public hosting and a pintch of ads
+### Phase 2.1 [Major] ### 
+- Login 
+- Tracking
+- ColorFication Exersice Diffculty 
+### Phase 2.2 [Major] ###
+- Create database for alternative 
+- Suggest alternative [diffculty [easy <-> hard] / equiment] 
+- Add Video link/embed [Youtube] 
+
+@@@@ Promotion of Website @@@@
+- we can show them a full workout session on youtube [the workout is genrated by website]
+
+### Phase 2.3 [Major] ###
+- Create Workout Logger  
+
+
+### Phase 3.1 ###
+- Algorithm to create Gym/CrossFit Routine
+### Phase 3.2 ###
+- Algorithm to create Gym + CrossFit Rounite
+
+
+### Phase 4### 
+- Create Login/Account
+- Create Adaptive Workout creator 
+
+
+### Phase X ###
+- create Web Crwaler [Op] 
