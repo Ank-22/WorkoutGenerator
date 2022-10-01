@@ -1,0 +1,26 @@
+# This is rough schema document for data input in mongo db
+# Document subjected to change as per phase of dev
+
+# Single document multiple collection layout
+- exercise:
+  -
+    name: "<string>name of exercise"
+    hash: "<string>Unique string for indexing and connecting"
+    level: "<int>level of exercise. 1 to 10 with 10 being hardcore"
+    # Links to videos/article related to this exercise
+    hyperlinks:
+      - "Link1"
+      - "Link2"
+    alternates:
+      - "hash1"
+      - "hash2"
+    target_musclegroup:
+      - "Muscle1"
+      - "Muscle2"
+    equipment:
+      - "Equipment1"
+      - "Equipment2"
+    ideal_sets:
+      - beginner: "<sets*reps>2*20"
+      - intermediate: "<sets*reps>2*25"
+      - hardcore: "<sets*reps>3*30"
