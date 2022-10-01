@@ -2,12 +2,11 @@
 version: "3.0"
 services:
   db:
-    name: mongo
     image: "mongo:latest"
-    volume:
+    volumes:
       - "/var/mongo:/data/db"
   backend:
-    name: flask
     build: Backend/.
     ports:
       - "5000:5000"
+    container_name: "flask_backend"

@@ -4,7 +4,7 @@ WORKDIR /data
 
 COPY . .
 
-RUN pip3 install -r requirement.txt
+RUN pip3 install -r requirment.txt
 
 EXPOSE 5000
 
