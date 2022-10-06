@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Button, Container, Typography } from "@mui/material";
-import icon_workout from "../../images/icon_workout.png";
+import logo2 from "../../images/logo2.svg";
+
 import NavbarTabs from "./NavbarTabs";
 
 const Navbar = () => {
   const [isLoggedIn, setisLoggedIn] = useState(false);
+  // eslint-disable-next-line
   const [username, setusername] = useState("username");
   const handleLogout = () => {
     setisLoggedIn(false);
@@ -20,13 +22,11 @@ const Navbar = () => {
           display: "flex",
           flexDirection: "row",
           alignContent: "center",
-          backgroundColor: "grey !important",
+          backgroundColor: "#1d1f2d !important",
         }}
       >
-        <Button>
-          <a href="/">
-            <img src={icon_workout} alt="icon" />
-          </a>
+        <Button size="large">
+          <img  style={{width:"5rem",border:"2px solid white",borderRadius:"50%"}} src={logo2} alt="random" />
         </Button>
         <Container
           sx={{
@@ -55,7 +55,7 @@ const Navbar = () => {
                 color="secondary"
                 variant="contained"
               >
-                <a style={{textDecoration:"none"}} href="/">
+                <a style={{ textDecoration: "none" }} href="/">
                   <Typography sx={{ color: "white" }}>{username}</Typography>
                 </a>
               </Button>
@@ -93,6 +93,7 @@ const Navbar = () => {
           )}
         </Container>
       </Container>
+      {/* <img src={logo2} alt="random" /> */}
     </div>
   );
 };
