@@ -1,3 +1,4 @@
 ECVAF/
 venv
 __pycache__
+/client/node_modules
