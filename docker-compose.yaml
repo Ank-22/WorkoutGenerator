@@ -1,0 +1,12 @@
+# Additional needed when frontend fixed
+version: "3.0"
+services:
+  db:
+    image: "mongo:latest"
+    volumes:
+      - "/var/mongo:/data/db"
+  backend:
+    build: Backend/.
+    ports:
+      - "5000:5000"
+    container_name: "flask_backend"
